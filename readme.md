@@ -5,20 +5,18 @@ MyCallCloud WebSite
 
 * ensure you have PHP > 5.3.17
 * ensure mod_rewrite is on and enabled
-* install composer from command line (global install):
-		```
-		curl -sS https://getcomposer.org/installer | php
-		```
-
-		
-		```
-		mv composer.phar /usr/local/bin/composer
-		```
+* install composer from command line (global install):  
+		`curl -sS https://getcomposer.org/installer | php`  
+		`mv composer.phar /usr/local/bin/composer`
 * switch to desired site location: `cd /path/to/website`
-* clone git repo: `git clone https://github.com/SellWellDesigns/mycallcloud.git desiredWebsiteFolderName`
-* enter new site folder: `cd desiredWebsiteFolderName`
-* have composer install required packages: `composer install`
-* ensure the "storage" folder is writable: `sudo chmod -R 777 app/storage`
+* clone git repo:  
+		`git clone https://github.com/SellWellDesigns/mycallcloud.git desiredWebsiteFolderName`
+* enter new site folder:  
+		`cd desiredWebsiteFolderName`
+* have composer install required packages:  
+		`composer install`
+* ensure the "storage" folder is writable:  
+		`sudo chmod -R 777 app/storage`
 
 At this point, your site is installed, you can:
 
