@@ -1,0 +1,170 @@
+/**
+ * Styles
+ */
+@import "styles";
+
+.primary {
+	color: @brand1;
+}
+
+
+#header-image {
+	img {
+		width: 100%;
+	}
+}
+
+#about {
+
+}
+
+#services {
+	p {
+		text-align: justify;
+	}
+
+	i {
+		font-size: 150px;
+		color: @brand1;
+	}
+}
+
+#testimonials {
+	height: 300px;
+
+	blockquote {
+		margin-top: 50px;
+		border-left: none;
+		border-right: none;
+
+		small {
+			color: @brand1;
+		}
+	}
+}
+
+#team {
+
+	.img-circle {
+		height: 250px;
+		width: 250px;
+	}
+
+	.lead {
+		color: @brand1;
+		font-weight: bold;
+
+		small {
+			font-weight: normal;
+			display: block;
+			color: @text-color;
+		}
+	}
+
+	p {
+		text-align: justify;
+	}
+}
+
+#contact {
+
+	input[type="text"], input[type="email"], textarea {
+		background-color: lighten(@brand1, 7%);
+		border: none;
+		outline: none;
+		padding: 15px;
+		color: #fff;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		.placeholder( #dedede );
+	}
+
+	button {
+		margin-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.contact-info {
+		text-align: center;
+		margin-top: 100px;
+	}
+
+}
+
+#map-canvas {
+	width: 100%;
+	height: 500px;
+}
+
+footer {
+	background-color: @brand1;
+	color: #fff;
+	text-align: center;
+
+	a, p {
+		color: #fff;
+		opacity: .7;
+
+	}
+
+	a:hover {
+		color: #fff;
+		opacity: 1;
+		text-decoration: none;
+	}
+
+	footer {
+		background-color: darken(@brand1, 20%);
+	}
+
+	.pull-left, .pull-right {
+		float: none;
+	}
+}
+
+
+
+
+// Tablets & small desktops only
+@media (min-width: @screen-tablet) and (max-width: @screen-tablet-max) {
+	#contact {
+		.contact-info {
+			text-align: left;
+			margin-top: 0;
+		}
+	}
+
+	footer {
+		text-align: left;
+
+		.pull-left {
+			float: left;
+		}
+		.pull-right {
+			float: right;
+		}
+	}
+}
+
+// For desktops
+@media (min-width: @screen-desktop) {
+	#contact {
+		.contact-info {
+			text-align: left;
+			margin-top: 0;
+		}
+	}
+
+	footer {
+		text-align: left;
+
+		.pull-left {
+			float: left;
+		}
+		.pull-right {
+			float: right;
+		}
+	}
+}
