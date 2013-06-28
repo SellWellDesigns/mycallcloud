@@ -8,6 +8,8 @@ MyCallCloud WebSite
 * install composer from command line (global install):
 		```
 		curl -sS https://getcomposer.org/installer | php
+		```
+		```
 		mv composer.phar /usr/local/bin/composer
 		```
 * switch to desired site location: `cd /path/to/website`
