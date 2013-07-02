@@ -79,7 +79,7 @@
 		 * Google Map
 		 */
 		var map;
-		var ringsbyct = new google.maps.LatLng(39.772131,-104.981948);
+		var ringsbyct = new google.maps.LatLng(39.764339,-104.855111);
 
 		var MY_MAPTYPE_ID = 'custom_style';
 
@@ -88,7 +88,7 @@
 		  var featureOpts = [
 		    {
 		      stylers: [
-		        { hue: '#58cdf8' },
+		        { hue: '#265cab' },
 		        { visibility: 'simplified' },
 		        { gamma: 0.5 },
 		        { weight: 0.5 }
