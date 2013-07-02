@@ -128,7 +128,7 @@
 
 		  map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
 
-		  var image = '/ico/favicon.png';
+		  var image = '/img/MCC_app_logo_button.png';
 		  var myLatLng = new google.maps.LatLng(39.772131,-104.981948);
 		  var beachMarker = new google.maps.Marker({
 		      position: myLatLng,

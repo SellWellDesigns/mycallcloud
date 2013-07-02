@@ -22,7 +22,7 @@
 				Our team was raised in the communications and technology industries; this has been and will be our professional passion.				
 			</p>
 			<p>
-				By applying our knowledge of the industry into our own technology we have built and immensely robust system that is responsive across devices and was designed with the everyday user in mind.  Every employee in your business; from the C-Suites to the call center operator will find enormous functionality, powerful analytics, and actionable reports.  Simplifying workflow, increasing efficiency.
+				By applying our knowledge of the industry into our own technology we have built an immensely robust system that is responsive across devices and was designed with the everyday user in mind.  Every employee in your business; from the C-Suites to the call center operator will find enormous functionality, powerful analytics, and actionable reports.  Simplifying workflow, increasing efficiency.
 			</p>
 		</div>
 	</div>
@@ -30,15 +30,21 @@
 	<div id="services" class="homepage-section container">
 		<div class="row">
 			<div class="col col-lg-3 text-center">
-				<i class="glyphicon glyphicon-refresh"></i>
-				<h3>Consulting</h3>
+				<img src="{{ asset('img/cloud-call-center.png') }}" />
+				<h3>Call Center</h3>
 				<p>
-					MyCallCloud knows that our success is fully dependent on providing our customers with the tools and practices to resolve even your most complex problems.  Our team was raised in this field and understands the issues at hand.  Working in conjunction with our technology products the MyCallCloud team will find the answer you need.
+					The MyCallCloud Call Center is an amazingly robust customizable suite of features. Incorporating blended dialing along side CRM integration through an open API. Personalized dashboards derived from tested analytics create actionable reports from the operator to the manager, and Direct to the C Suite. 
 				</p>
-				<hr class="visible-sm" />
 			</div>
 			<div class="col col-lg-3 text-center">
-				<i class="glyphicon glyphicon-globe"></i>
+				<img src="{{ asset('img/voip-icon.png') }}" />
+				<h3>VoIP</h3>
+				<p>
+					Our experience working with VoIP is as old as VoIP itself, we’ve paid our dues and have the connections to back it up!  Our seven national carrier networks reach when combined with our LocalTouch technology allows you to stay in contact with your customers regardless of region and with a local number.
+				</p>
+			</div>
+			<div class="col col-lg-3 text-center">
+				<img src="{{ asset('img/hosted-pbx-icon.png') }}" />
 				<h3>PBX</h3>
 				<p>
 					MyCallCloud Private Branch Exchange contains the capabilities to be the most powerful Private Branch Exchange in the cloud.  Inbound/Outbound dialing, mobile integration, video capabilities, SMS, and Click to Call are just a handful of features you’ll find in our proprietary technology.
@@ -46,18 +52,12 @@
 				<hr class="visible-sm" />
 			</div>
 			<div class="col col-lg-3 text-center">
-				<i class="glyphicon glyphicon-retweet"></i>
-				<h3>VoIP</h3>
+				<img src="{{ asset('img/consulting-icon.png') }}" />
+				<h3>Consulting</h3>
 				<p>
-					Our experience working with VoIP is as old as VoIP itself, we’ve paid our dues and have the connections to back it up!  Our seven national carrier networks reach when combined with our LocalTouch technology allows you to stay in contact with your customers regardless of region and with a local number.
+					MyCallCloud knows that our success is fully dependent on providing our customers with the tools and practices to resolve even your most complex problems.  Our team was raised in this field and understands the issues at hand.  Working in conjunction with our technology products the MyCallCloud team will find the answer you need.
 				</p>
-			</div>
-			<div class="col col-lg-3 text-center">
-				<i class="glyphicon glyphicon-music"></i>
-				<h3>Call Center</h3>
-				<p>
-					The MyCallCloud Call Center is an amazingly robust customizable suite of features. Incorporating blended dialing along side CRM integration through an open API. Personalized dashboards derived from tested analytics create actionable reports from the operator to the manager, and Direct to the C Suite. 
-				</p>
+				<hr class="visible-sm" />
 			</div>
 		</div>
 	</div>	
@@ -117,10 +117,10 @@
 			<div class="contact-info col col-lg-6">
 				<address>
 					<strong>MyCallCloud</strong><br />
-					3459 Ringsby Ct #114<br />
+					3511 Ringsby Ct Unit 105<br />
 					Denver, CO 80216<br />
-					<abbr title="Phone">P:</abbr> (303) 586-1456<br />
-					<abbr title="Email">E:</abbr> <a href="mailto:info@mycallcloud.com">info@mycallcloud.com</a>
+					<abbr title="Phone">P:</abbr> 888-663-0760<br />
+					<abbr title="Email">E:</abbr> <a href="mailto:sales@mycallcloud.com">sales@mycallcloud.com</a>
 				</address>
 
 				<div id="map-canvas" class="hidden-sm"></div>

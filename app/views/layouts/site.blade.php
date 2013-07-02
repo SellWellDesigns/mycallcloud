@@ -40,9 +40,6 @@
                 <a href="{{ !$homepage ? route('home') : '' }}#services">Services</a>
               </li>
               <li>
-                <a href="{{ !$homepage ? route('home') : '' }}#team">Team</a>
-              </li>
-              <li>
                 <a href="{{ !$homepage ? route('home') : '' }}#contact">Contact</a>
               </li>
             </ul>
@@ -73,10 +70,6 @@
             <a href="{{ !$homepage ? route('home') : '' }}#about">About</a>
             |
             <a href="{{ !$homepage ? route('home') : '' }}#services">Services</a>
-            |
-            <a href="{{ !$homepage ? route('home') : '' }}#team">Team</a>
-            {{--|
-            <a href="{{ !$homepage ? route('home') : '' }}#blog">Blog</a>--}}
             |
             <a href="{{ !$homepage ? route('home') : '' }}#contact">Contact</a>
           </p>

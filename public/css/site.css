@@ -2998,7 +2998,7 @@ button.close {
 .navbar-nav > li > a {
   padding-top: 40px;
   padding-bottom: 40px;
-  color: #777777;
+  color: #265cab;
   line-height: 20px;
   border-radius: 0px;
 }
@@ -3049,12 +3049,12 @@ button.close {
   font-size: 18px;
   font-weight: 500;
   line-height: 20px;
-  color: #777777;
+  color: #265cab;
   text-align: center;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #1d4681;
   text-decoration: none;
   background-color: transparent;
 }
@@ -3118,8 +3118,8 @@ button.close {
   color: #ffffff;
 }
 .navbar-nav > .dropdown > a .caret {
-  border-top-color: #777777;
-  border-bottom-color: #777777;
+  border-top-color: #265cab;
+  border-bottom-color: #265cab;
 }
 .navbar-nav > .open > a .caret,
 .navbar-nav > .open > a:hover .caret,
@@ -3236,7 +3236,7 @@ button.close {
   margin-bottom: 40px;
 }
 .navbar-link {
-  color: #777777;
+  color: #265cab;
 }
 .navbar-link:hover {
   color: #ffffff;
@@ -4637,6 +4637,16 @@ body {
 }
 .pull-inline {
   display: inline;
+}
+header .navbar {
+  -webkit-box-shadow: 0 1px 7px #cccccc;
+  box-shadow: 0 1px 7px #cccccc;
+}
+header .navbar a {
+  font-weight: bold;
+}
+header .navbar .navbar-brand {
+  padding: 20px;
 }
 /**
  * Font Awesome
@@ -6140,6 +6150,9 @@ a .icon-flip-vertical:before {
  */
 .primary {
   color: #265cab;
+}
+#header-image {
+  padding-top: 100px;
 }
 #header-image img {
   width: 100%;
