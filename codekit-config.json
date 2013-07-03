@@ -41,14 +41,18 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/server.php" : {
+    "\/less\/font-awesome\/mixins.less" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/server.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/less\/font-awesome\/mixins.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/less\/public\/css\/mixins.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/public\/img\/consulting-icon.png" : {
       "ignoreWasSetByUser" : 0,
@@ -79,18 +83,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/less\/font-awesome\/mixins.less" : {
+    "\/server.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/font-awesome\/mixins.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/less\/public\/css\/mixins.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/server.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/app\/config\/database.php" : {
       "ignoreWasSetByUser" : 0,
@@ -152,6 +152,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/app\/config\/production\/app.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/config\/production\/app.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/public\/js\/site.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -162,15 +171,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/public\/js\/site.min.min.js",
       "fileType" : 64
-    },
-    "\/app\/config\/production\/app.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/config\/production\/app.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/less\/font-awesome\/path.less" : {
       "ignoreWasSetByUser" : 0,
@@ -212,16 +212,18 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/public\/img\/cloud-call-center.png" : {
+    "\/less\/font-awesome\/variables.less" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/img\/cloud-call-center.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/img\/cloud-call-center.png",
-      "initialSize" : 4881,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/less\/font-awesome\/variables.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/less\/public\/css\/variables.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/app\/controllers\/BaseController.php" : {
       "ignoreWasSetByUser" : 0,
@@ -243,18 +245,16 @@
       "initialSize" : 4760,
       "fileType" : 8192
     },
-    "\/less\/font-awesome\/variables.less" : {
+    "\/public\/img\/cloud-call-center.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/font-awesome\/variables.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/less\/public\/css\/variables.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/public\/img\/cloud-call-center.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/img\/cloud-call-center.png",
+      "initialSize" : 4881,
+      "fileType" : 8192
     },
     "\/bootstrap\/autoload.php" : {
       "ignoreWasSetByUser" : 0,
@@ -325,6 +325,17 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
+    "\/public\/img\/carousel-back.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/img\/carousel-back.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/img\/carousel-back.png",
+      "initialSize" : 421592,
+      "fileType" : 8192
+    },
     "\/app\/start\/artisan.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -374,6 +385,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/public\/img\/voip-icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/img\/voip-icon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/img\/voip-icon.png",
+      "initialSize" : 3703,
+      "fileType" : 8192
+    },
     "\/less\/font-awesome\/font-awesome-ie7.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -386,17 +408,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/public\/img\/voip-icon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/img\/voip-icon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/img\/voip-icon.png",
-      "initialSize" : 3703,
-      "fileType" : 8192
     },
     "\/app\/config\/session.php" : {
       "ignoreWasSetByUser" : 0,
@@ -525,6 +536,60 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/app\/lang\/en\/reminders.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lang\/en\/reminders.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/app\/config\/auth.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/config\/auth.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/app\/views\/emails\/auth\/reminder.blade.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/views\/emails\/auth\/reminder.blade.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/app\/config\/compile.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/config\/compile.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/app\/filters.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/filters.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/app\/models\/User.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/models\/User.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/less\/font-awesome\/extras.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -538,51 +603,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/app\/config\/auth.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/config\/auth.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/app\/lang\/en\/reminders.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lang\/en\/reminders.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/app\/filters.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/filters.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/app\/config\/compile.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/config\/compile.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/app\/models\/User.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/models\/User.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/less\/font-awesome\/icons.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -595,15 +615,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/app\/views\/emails\/auth\/reminder.blade.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/views\/emails\/auth\/reminder.blade.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     }
   },
   "manualImportLinks" : [
