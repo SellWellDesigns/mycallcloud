@@ -6258,6 +6258,14 @@ footer .pull-left,
 footer .pull-right {
   float: none;
 }
+.navbar {
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   #contact .contact-info {
     text-align: left;
