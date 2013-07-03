@@ -41,18 +41,14 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/less\/font-awesome\/mixins.less" : {
+    "\/server.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/font-awesome\/mixins.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/less\/public\/css\/mixins.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/server.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/public\/img\/consulting-icon.png" : {
       "ignoreWasSetByUser" : 0,
@@ -83,14 +79,18 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/server.php" : {
+    "\/less\/font-awesome\/mixins.less" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/server.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/less\/font-awesome\/mixins.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/less\/public\/css\/mixins.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/app\/config\/database.php" : {
       "ignoreWasSetByUser" : 0,
@@ -212,18 +212,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/less\/font-awesome\/variables.less" : {
+    "\/public\/img\/cloud-call-center.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/font-awesome\/variables.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/less\/public\/css\/variables.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/public\/img\/cloud-call-center.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/img\/cloud-call-center.png",
+      "initialSize" : 4881,
+      "fileType" : 8192
     },
     "\/app\/controllers\/BaseController.php" : {
       "ignoreWasSetByUser" : 0,
@@ -245,16 +243,18 @@
       "initialSize" : 4760,
       "fileType" : 8192
     },
-    "\/public\/img\/cloud-call-center.png" : {
+    "\/less\/font-awesome\/variables.less" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/img\/cloud-call-center.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/img\/cloud-call-center.png",
-      "initialSize" : 4881,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/less\/font-awesome\/variables.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/less\/public\/css\/variables.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/bootstrap\/autoload.php" : {
       "ignoreWasSetByUser" : 0,
@@ -590,19 +590,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/less\/font-awesome\/extras.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/font-awesome\/extras.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/less\/public\/css\/extras.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/less\/font-awesome\/icons.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -612,6 +599,19 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/less\/public\/css\/icons.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/less\/font-awesome\/extras.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/font-awesome\/extras.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/less\/public\/css\/extras.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -790,7 +790,7 @@
   },
   "projectAttributes" : {
     "bourbonEnabled" : 0,
-    "displayValue" : "mcc",
+    "displayValue" : "mycallcloud",
     "displayValueWasSetByUser" : 0,
     "compassEnabled" : 0
   }

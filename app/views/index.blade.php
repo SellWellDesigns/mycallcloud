@@ -16,13 +16,16 @@
 				Telephony with Integrity
 			</p>
 			<p>
-				MyCallCloud is a full-service software-consulting firm that empowers your business with the knowledge, technology and services to reach your customers with the right message at the right time.
+				MyCallCloud is a full-service software consulting firm.  We empower your business with expertise and technological solutions that revolutionize how contact centers connect with customers and how managers connect with employees.
 			</p>
 			<p>
-				Our team was raised in the communications and technology industries; this has been and will be our professional passion.				
+				Our team was raised in the communications and technology industries; this is our professional passion.  Our constant pursuit of knowledge ensures that we can optimize the cost structure and increase the performance level of your existing technologies.
 			</p>
 			<p>
-				By applying our knowledge of the industry into our own technology we have built an immensely robust system that is responsive across devices and was designed with the everyday user in mind.  Every employee in your business; from the C-Suites to the call center operator will find enormous functionality, powerful analytics, and actionable reports.  Simplifying workflow, increasing efficiency.
+				By applying our knowledge of the industry into our own technology we have built an immensely robust system of intelligent technologies.  These powerful capabilities create reports with the accuracy and reliability you need to take action.
+			</p>
+			<p>
+				MyCallCloud technologies ensure that every employee in your business, whether sitting in front of a desktop or relying on their smartphone, will always have the information they need in order to perform at the highest level.
 			</p>
 		</div>
 	</div>
@@ -33,21 +36,21 @@
 				<img src="{{ asset('img/cloud-call-center.png') }}" />
 				<h3>Call Center</h3>
 				<p>
-					The MyCallCloud Call Center is an amazingly robust customizable suite of features. Incorporating blended dialing along side CRM integration through an open API. Personalized dashboards derived from tested analytics create actionable reports from the operator to the manager, and Direct to the C Suite. 
+					The MyCallCloud Call Center is an amazingly robust customizable suite of features, which incorporates blended dialing alongside CRM integration. Personalized dashboards derived from tested analytics create actionable reports for workers at any level of your company.
 				</p>
 			</div>
 			<div class="col col-lg-3 text-center">
 				<img src="{{ asset('img/voip-icon.png') }}" />
 				<h3>VoIP</h3>
 				<p>
-					Our experience working with VoIP is as old as VoIP itself, we’ve paid our dues and have the connections to back it up!  Our seven national carrier networks reach when combined with our LocalTouch technology allows you to stay in contact with your customers regardless of region and with a local number.
+					Our experience working with VoIP is as old as VoIP itself!  The reach of our seven national carrier networks, combined with our LocalTouch technology, allows you to stay in contact with your customers with a local number, regardless of the originating region.
 				</p>
 			</div>
 			<div class="col col-lg-3 text-center">
 				<img src="{{ asset('img/hosted-pbx-icon.png') }}" />
 				<h3>PBX</h3>
 				<p>
-					MyCallCloud Private Branch Exchange contains the capabilities to be the most powerful Private Branch Exchange in the cloud.  Inbound/Outbound dialing, mobile integration, video capabilities, SMS, and Click to Call are just a handful of features you’ll find in our proprietary technology.
+					MyCallCloud Private Branch Exchange is the most powerful PBX available in the cloud.  Inbound and outbound dialing, mobile integration, video capabilities, SMS, and Click to Call technology are just a sampling of the available features Private Branch Exchange offers.
 				</p>
 				<hr class="visible-sm" />
 			</div>
@@ -55,7 +58,7 @@
 				<img src="{{ asset('img/consulting-icon.png') }}" />
 				<h3>Consulting</h3>
 				<p>
-					MyCallCloud knows that our success is fully dependent on providing our customers with the tools and practices to resolve even your most complex problems.  Our team was raised in this field and understands the issues at hand.  Working in conjunction with our technology products the MyCallCloud team will find the answer you need.
+					MyCallCloud knows that our success is fully dependent on providing our customers with the tools and solutions necessary to resolve even the most complex of problems. Our team will help you find the answers needed to optimize your cost and performance structures.
 				</p>
 				<hr class="visible-sm" />
 			</div>
