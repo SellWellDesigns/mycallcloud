@@ -79,8 +79,7 @@
 		 * Google Map
 		 */
 		var map;
-		var ringsbyct = new google.maps.LatLng(39.764339,-104.855111);
-
+		var ringsbyct = new google.maps.LatLng(39.772098,-104.981725);
 		var MY_MAPTYPE_ID = 'custom_style';
 
 		function initialize() {
@@ -103,7 +102,7 @@
 		    {
 		      featureType: 'water',
 		      stylers: [
-		        { color: '#58cdf8' }
+		        { color: '#265cab' }
 		      ]
 		    }
 		  ];
@@ -129,7 +128,7 @@
 		  map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
 
 		  var image = 'img/MCC_app_logo_button.png';
-		  var myLatLng = new google.maps.LatLng(39.764339,-104.855111);
+		  var myLatLng = new google.maps.LatLng(39.772098,-104.981725);
 		  var beachMarker = new google.maps.Marker({
 		      position: myLatLng,
 		      map: map,

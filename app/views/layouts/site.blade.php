@@ -26,7 +26,7 @@
             <span class="icon-bar"></span>
           </a>
           <a class="navbar-brand" href="{{ route('home') }}">
-            <img src="{{ asset('img/logo-50.png') }}" />
+            <img src="{{ asset('img/logo.png') }}" />
           </a>
           <?php
           $homepage = URL::current().'/' === asset('');
@@ -37,7 +37,7 @@
                 <a href="{{ !$homepage ? route('home') : '' }}#about">About</a>
               </li>
               <li>
-                <a href="{{ !$homepage ? route('home') : '' }}#services">Services</a>
+                <a href="{{ !$homepage ? route('home') : '' }}#solutions">Solutions</a>
               </li>
               <li>
                 <a href="{{ !$homepage ? route('home') : '' }}#contact">Contact</a>
@@ -69,7 +69,7 @@
           <p class="pull-right">
             <a href="{{ !$homepage ? route('home') : '' }}#about">About</a>
             |
-            <a href="{{ !$homepage ? route('home') : '' }}#services">Services</a>
+            <a href="{{ !$homepage ? route('home') : '' }}#solutions">Solutions</a>
             |
             <a href="{{ !$homepage ? route('home') : '' }}#contact">Contact</a>
           </p>

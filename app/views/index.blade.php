@@ -30,7 +30,7 @@
 		</div>
 	</div>
 
-	<div id="services" class="homepage-section container">
+	<div id="solutions" class="homepage-section container">
 		<div class="row">
 			<div class="col col-lg-3 text-center">
 				<img src="{{ asset('img/cloud-call-center.png') }}" />
