@@ -55,8 +55,8 @@ return array(
 	*/
 
 	'from' => array(
-		'address' => 'info@sellwelldesigns.com', 
-		'name' => 'Sell Well Designs, LLC'
+		'address' => 'sales@mycallcloud.com', 
+		'name'    => 'MyCallCloud'
 	),
 
 	/*
@@ -83,7 +83,7 @@ return array(
 	|
 	*/
 
-	'username' => 'conar@sellwelldesigns.com',
+	'username' => 'sales@mycallcloud.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -96,7 +96,7 @@ return array(
 	|
 	*/
 
-	'password' => '!E@pfr0g',
+	'password' => 'Money365',
 
 	/*
 	|--------------------------------------------------------------------------
