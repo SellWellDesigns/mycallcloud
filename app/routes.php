@@ -15,10 +15,13 @@ Route::get('/', array(
 /**
  * Contact Form Submission
  */
-Route::post('contact', function()
-{
-	Mail::send('emails.contact.system', Input::all(), function($message)
+Route::post('contact', array(
+	'as' => 'contact.submit',
+	function()
 	{
-	    $message->to('sales@mycallcloud.com', 'MyCallCloud Sales')->subject('[MyCallCloud.com Contact Form]');
-	});
-});
+		Mail::send('emails.contact.system', Input::all(), function($message)
+		{
+		    $message->to('sales@mycallcloud.com', 'MyCallCloud Sales')->subject('[MyCallCloud.com Contact Form]');
+		});
+	}
+));

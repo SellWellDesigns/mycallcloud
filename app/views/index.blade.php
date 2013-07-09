@@ -75,7 +75,7 @@
 		<div class="row">
 
 			<div class="col col-lg-6">
-				<form class="form-horizontal" action="/contact" method="post">
+				<form class="form-horizontal" action="{{ route('contact.submit') }}" method="post">
 					<fieldset>
 
 						<div class="control-group">
