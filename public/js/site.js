@@ -79,7 +79,7 @@
 		 * Google Map
 		 */
 		var map;
-		var ringsbyct = new google.maps.LatLng(39.772098,-104.981725);
+		var ringsbyct = new google.maps.LatLng(39.772139,-104.98169);
 		var MY_MAPTYPE_ID = 'custom_style';
 
 		function initialize() {
@@ -128,9 +128,9 @@
 		  map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
 
 		  var image = 'img/MCC_app_logo_button.png';
-		  var myLatLng = new google.maps.LatLng(39.772098,-104.981725);
+		  
 		  var beachMarker = new google.maps.Marker({
-		      position: myLatLng,
+		      position: ringsbyct,
 		      map: map,
 		      icon: image
 		  });
