@@ -43,7 +43,7 @@
 				<img src="{{ asset('img/voip-icon.png') }}" />
 				<h3>VoIP</h3>
 				<p>
-					Our experience working with VoIP is as old as VoIP itself!  The reach of our seven national carrier networks, combined with our LocalTouch technology, allows you to stay in contact with your customers with a local number, regardless of the originating region.
+					Our experience working with VoIP is as old as VoIP itself!  The reach of our seven national carrier networks, combined with our Localize technology, allows you to stay in contact with your customers with a local number, regardless of the originating region.
 				</p>
 			</div>
 			<div class="col col-lg-3 text-center">
