@@ -120,7 +120,7 @@
 			<div class="contact-info col col-lg-6">
 				<address>
 					<strong>MyCallCloud</strong><br />
-					3459 Ringsby Ct<br />
+					3457 Ringsby Ct #110A<br />
 					Denver, CO 80216<br />
 					<abbr title="Phone">P:</abbr> 888-663-0760<br />
 					<abbr title="Email">E:</abbr> <a href="mailto:sales@mycallcloud.com">sales@mycallcloud.com</a>
